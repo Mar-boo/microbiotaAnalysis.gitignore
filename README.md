@@ -15,7 +15,7 @@ This repository presents a **reproducible data science workflow for microbiome a
 
 
 
-## 🔁 Analysis Pipeline (Data Science Workflow)
+## 🔁 Analysis Pipeline
 
 ```text
 Raw microbiome sequencing counts (simulated)
