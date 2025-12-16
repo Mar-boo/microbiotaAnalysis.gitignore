@@ -1,4 +1,4 @@
-## 🧬 Vaginal Microbiota Analysis – Compositional Data Science Pipeline
+## 🧬 Vaginal Microbiota Analysis
 
 Important note: The data used in this repository is completely fictitious and has been generated for educational and methodological purposes. No real patient data or sensitive information is used, in compliance with data protection regulations.
 
