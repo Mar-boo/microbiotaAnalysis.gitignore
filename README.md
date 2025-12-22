@@ -56,8 +56,8 @@ Exploratory analysis
                 ▼
 Statistical modeling
                 │
-                ├─ Linear models
                 ├─ Mixed‑effects models (LME)
+                ├─ Linear models
                 ├─ Multinomial models (CLM / CLMM)
                 └─ Forward variable selection
                 │
