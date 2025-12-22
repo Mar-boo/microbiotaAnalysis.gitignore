@@ -10,6 +10,15 @@ This repository documents the complete process of statistical analysis of vagina
 The main objective is to show how to analytically approach microbiota data, taking into account its particular characteristics (compositional data, high dimensionality, inflation of zeros, and overdispersion), using a rigorous and reproducible statistical approach.
 
 
+## Scripts folder
+
+The `scripts/` directory includes all analysis code.
+
+- **SimulatedMicrobiome.R**: generates simulated longitudinal microbiome data used throughout the project.
+- **Models/**: contains the scripts for statistical modeling (Weighted model LM, CLMM, PERMANOVA) and visualization of selected results.
+
+
+
 ## 🧭 Analysis strategy
 This repository presents a **reproducible data science workflow for microbiome analysis**, applied to simulated vaginal microbiota data. Sequencing count data are modeled as **compositional OTU abundance matrices** and analyzed using normalization, zero imputation, and **Aitchison log‑ratio transformations (CLR/ILR)**. Microbial diversity is assessed via **alpha diversity (Shannon index)** and **beta diversity (Bray–Curtis dissimilarity)**. Multivariate structure is explored using **PCoA, NMDS, and hierarchical clustering**. Group differences are tested with **permutation‑based methods (PERMANOVA, PERMDISP)**, while temporal and covariate effects are modeled using **linear and mixed‑effects models**, including multinomial extensions for taxonomic composition. The project reflects best practices in **statistical learning for microbiome data**, with an emphasis on robustness, interpretability, and reproducibility.
 
